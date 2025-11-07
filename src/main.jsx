@@ -1,7 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-//import App from './App.jsx';
 import Greeting from './Greeting.jsx';
 import {NavBar} from './navbar';
 import {ArmoryCatalog} from './dndweapons';
@@ -44,8 +43,6 @@ function App () {
     </div>
   );
 };
-
-
 
 function renderPage () {
   root.render(

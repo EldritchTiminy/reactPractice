@@ -13,7 +13,9 @@
     "build": "vite build",
     "adddist": "git add dist -f && git commit -m 'Deployment commit'",
     "deploy": "git subtree push --prefix dist origin gh-pages",
-    "unswitch": "git checkout main"
+    "unswitch": "git checkout main",
+    "delete": "git branch -D gh-pages",
+    "deleter": "git push origin --delete gh-pages"
   },
   "dependencies": {
     "react": "^19.1.1",
